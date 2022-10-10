@@ -1,0 +1,74 @@
+[STARTUP]: Log created on date 07-24-2022 with version 0.61 and executor Synapse X.
+[04:09:28] [gdrdn]: (INIT) Initializing Eclipse with job id 50cbe862-1b32-44bc-9aa1-43d9595fe036...
+[04:09:28] [gdrdn]: (AUTH) Fetched SHA & custom SHA functions
+[04:09:32] [gdrdn]: (AUTH) Loaded hub modules
+[04:09:32] [gdrdn]: (AUTH) Transfered to correct token
+[04:09:33] [gdrdn]: (AUTH) Starting key exchange...
+[04:09:33] [gdrdn]: (AUTH) Fetching public data
+[04:09:33] [gdrdn]: (AUTH) Public data fetched, sig: eaf47426091c2f2cf8757d1edb3908a8
+[04:09:33] [gdrdn]: (AUTH) Expected public sig generated
+[04:09:33] [gdrdn]: (AUTH) Created private key
+[04:09:33] [gdrdn]: (AUTH) Created X value
+[04:09:33] [gdrdn]: (AUTH) Posting X value in handshake
+[04:09:34] [gdrdn]: (AUTH) Handshake data fetched, sig: 5b8e48ff8fd4f42766c5c0a4f2ca6727
+[04:09:34] [gdrdn]: (AUTH) Generated shared secret: b246fc3b99ffebc7c36e7d5292b183cf
+[04:09:34] [gdrdn]: (UI) Loading instances...
+[04:09:34] [gdrdn]: (UI) Loaded instances
+[04:09:34] [gdrdn]: (UI) Loading propteries...
+[04:09:34] [gdrdn]: (UI) Loaded properties
+[04:09:34] [gdrdn]: (FILE) Loading file data...
+[04:09:34] [gdrdn]: (FILE) Loaded features from Eclipse/Saves/Configs/features.json
+[04:09:35] [gdrdn]: (INIT) Set status to Fetching Auth..., 7.84 seconds in
+[04:09:36] [gdrdn]: (REQ) Starting request protocol...
+[04:09:36] [gdrdn]: (REQ) Formatted data, proceess to /auth/internal...
+[04:09:36] [gdrdn]: (REQ) Starting bare request... (attempts: 1)
+[04:09:36] [gdrdn]: (REQ) Fetched bare request!
+[04:09:36] [gdrdn]: (REQ) Response signature: b8598fb6be3a780be0d9f4c4301bd5f7
+[04:09:36] [gdrdn]: (REQ) Response signature verified!
+[04:09:36] [gdrdn]: (REQ) Finished request, status: 200
+[04:09:36] [gdrdn]: (INIT) Set status to Parsing Auth..., 8.39 seconds in
+[04:09:36] [gdrdn]: (INIT) Set status to Decrypting Data..., 8.50 seconds in
+[04:09:37] [gdrdn]: (INIT) Set status to Parsing Modules..., 8.99 seconds in
+[04:09:37] [gdrdn]: (INIT) Set status to Creating UI..., 9.11 seconds in
+[04:09:37] [gdrdn]: (INIT) Set status to Connecting to Chat..., 9.23 seconds in
+[04:09:37] [gdrdn]: (INIT) Set status to Init Color Modules..., 9.61 seconds in
+[04:09:37] [gdrdn]: (INIT) Set status to Checking Filesystem..., 9.74 seconds in
+[04:09:37] [gdrdn]: (INIT) Set status to Init Hub Data..., 9.85 seconds in
+[04:09:38] [gdrdn]: (INIT) Set status to Init Universal Features..., 9.95 seconds in
+[04:09:38] [gdrdn]: (INIT) Set status to Init Trade Features..., 10.08 seconds in
+[04:09:38] [gdrdn]: (INIT) Set status to Loading Spoofing..., 10.19 seconds in
+[04:09:38] [gdrdn]: (SPOOF) Starting spoofing system...
+[04:09:38] [gdrdn]: (SPOOF) Adding spoofing system context
+[04:09:38] [gdrdn]: (SPOOF) Checking validity of spoofing system
+[04:09:38] [gdrdn]: (SPOOF) Loaded!
+[04:09:38] [gdrdn]: (INIT) Set status to Loading Audios..., 10.30 seconds in
+[04:09:38] [gdrdn]: (INIT) Set status to Preloading Assets..., 10.43 seconds in
+[04:09:38] [gdrdn]: (INIT) Set status to Loaded!, 10.55 seconds in
+[04:09:38] [gdrdn]: (INIT) Eclipse Hub loaded. Took 10.66 seconds.
+[04:10:23] [gdrdn]: (REQ) Starting request protocol...
+[04:10:23] [gdrdn]: (REQ) Formatted data, proceess to /generate/linker...
+[04:10:23] [gdrdn]: (REQ) Starting bare request... (attempts: 1)
+[04:10:23] [gdrdn]: (REQ) Fetched bare request!
+[04:10:24] [gdrdn]: (REQ) Decrypting response...
+[04:10:24] [gdrdn]: (REQ) Fetched nonce.
+[04:10:24] [gdrdn]: (REQ) Generated shared.
+[04:10:24] [gdrdn]: (REQ) Parsed payload 1.
+[04:10:24] [gdrdn]: (REQ) Decipher payload 1.
+[04:10:24] [gdrdn]: (REQ) Generated payload 2 key.
+[04:10:24] [gdrdn]: (REQ) Deciphered payload 2.
+[04:10:24] [gdrdn]: (REQ) Streaming payload 3...
+[04:10:24] [gdrdn]: (REQ) Streamed payload 3.
+[04:10:24] [gdrdn]: (REQ) Parsed raw data.
+[04:10:24] [gdrdn]: (REQ) Reset stream.
+[04:10:24] [gdrdn]: (REQ) Padding successful!
+[04:10:24] [gdrdn]: (REQ) Decrypted response!
+[04:10:24] [gdrdn]: (REQ) Response signature: ed25214d4ae9390bc41f17058ef55911
+[04:10:24] [gdrdn]: (REQ) Response signature verified!
+[04:10:24] [gdrdn]: (REQ) Finished request, status: 200
+[04:10:30] [gdrdn]: (REQ) Starting request protocol...
+[04:10:30] [gdrdn]: (REQ) Formatted data, proceess to /audios...
+[04:10:30] [gdrdn]: (REQ) Starting bare request... (attempts: 1)
+[04:10:31] [gdrdn]: (REQ) Fetched bare request!
+[04:10:31] [gdrdn]: (REQ) Response signature: e09e46dcd69d797c99b42ad171a499e0
+[04:10:31] [gdrdn]: (REQ) Response signature verified!
+[04:10:31] [gdrdn]: (REQ) Finished request, status: 200
